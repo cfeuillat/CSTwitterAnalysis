@@ -45,6 +45,29 @@ Votre binome doit faire un clone sur son pc :
 	git clone git@github.com:hayj/CSTwitterAnalysis.git
 
 
+Chaque membre du binome doit faire une branche.
+
+Binome1 fait :
+
+	git checkout -b branche1
+
+Binome2 fait :
+
+	git checkout -b branche2
+
+Régulierement vous devez merger sur la branche master.
+
+Binome1 fait :
+	
+	git checkout master # pour retourner sur la branche master
+	git pull # pour récupérer les dernières mise à jour
+	git merge branche1 # pour merger master et branche1
+	git push origin master
+
+
+
+
+
 
 
 
