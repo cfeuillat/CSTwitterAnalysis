@@ -60,9 +60,10 @@ Régulierement vous devez merger sur la branche master.
 Binome1 fait :
 	
 	git checkout master # pour retourner sur la branche master
-	git pull # pour récupérer les dernières mise à jour
+	git pull # pour récupérer les dernières mise à jour de master
 	git merge branche1 # pour merger master et branche1
 	git push origin master
+	git checkout -b branche1
 
 
 
