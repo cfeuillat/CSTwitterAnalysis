@@ -8,7 +8,7 @@ Vous créez un nouveau projet `CSTwitterAnalysis`
 
 Si ce n'est pas deja fait vous créez une clef ssh dans votre dossier `~/.ssh` :
 
-	cd ~/.ssh
+	cd ~/.ssh # facultatif sur windows
 	ssh-keygen -t rsa
 
 Pas besoin de rentrer de passphrase ni d'email...
