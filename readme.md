@@ -40,7 +40,11 @@ Si ce n'est pas deja fait vous faites le premier commit (qui créé une mise à 
 
 Ensuite vous faites le premier push:
 
-	git push -u origin master
+	git push origin master
+
+Attention, si votre push ne fonctionne pas vous devez ajouter l'option `f` :
+
+	git push -f origin master
 
 Vous invitez votre binome dans le projet sur le site web GitHub. Vous devez également inviter votre encadrant (pour moi ce sera hayj).
 
