@@ -1,3 +1,5 @@
+# Configurez votre GitHub
+
 Attention, ceci n'est pas un repo que vous devez utiliser pour votre projet, juste un tutoriel pour vous aider à config vos projets.
 
 Vous vous inscrivez sur GitHub
@@ -21,6 +23,8 @@ Exemple :
 
 	cd C:/mon/projet
 	git init
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
 
 Ensuite vous ajoutez le repo sur les serveurs github (remplacez "hayj" par votre username) :
 
@@ -65,4 +69,8 @@ Binome1 fait :
 	git push origin master
 	git checkout branche1 # retournez sur votre branche
 
+# Enregistrez vous sur Twitter
 
+ * Vous vous inscrivez sur Twitter
+ * puis en tant que développeur https://developer.twitter.com
+ * Dans le formulaire vous expliquez que vous travaillez pour du sentiment analysis et trend analysis pour un projet en cours etc
