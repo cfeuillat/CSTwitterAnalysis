@@ -6,7 +6,12 @@ Vous créez un nouveau projet `CSTwitterAnalysis`
 
 En ligne de commande (sur votre console git sous windows ou votre terminal sur Linux/Mac) vous allez dans le dossier de votre projet local s'il existe.
 
-S'il n'existe pas ou que vous voulez refaire tout depuis le début créez un nouveau dossier et faites un `git init` en étant dedans
+S'il n'existe pas ou que vous voulez refaire tout depuis le début créez un nouveau dossier et faites un `git init` (en ligne de commande) en étant dedans.
+
+Exemple :
+
+	cd C:/mon/projet
+	git init
 
 Ensuite vous ajoutez le repo sur les serveurs github (remplacez "hayj" par votre username) :
 
@@ -28,4 +33,8 @@ Vous invitez votre binome dans le projet sur le site web GitHub.
 
 Votre binome doit faire un clone sur son pc :
 
-	git@github.com:hayj/CSTwitterAnalysis.git
+	git clone git@github.com:hayj/CSTwitterAnalysis.git
+
+
+
+test 3
