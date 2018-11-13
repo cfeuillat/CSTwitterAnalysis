@@ -11,7 +11,7 @@ Si ce n'est pas deja fait vous créez une clef ssh dans votre dossier `~/.ssh` :
 	cd ~/.ssh # facultatif sur windows
 	ssh-keygen -t rsa
 
-Pas besoin de rentrer de passphrase ni d'email...
+Pas besoin de rentrer de passphrase ni d'email, ne rien écrire et appuyer sur entrée plusieurs fois...
 
 Ensuite vous copiez votre clef public (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web.
 
