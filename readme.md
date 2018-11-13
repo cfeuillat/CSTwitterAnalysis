@@ -48,6 +48,8 @@ Votre binome doit faire un clone sur son pc :
 
 	git clone git@github.com:hayj/CSTwitterAnalysis.git
 
+Si vous n'avez pas encore le projet sur pycharm, vous pouvez simplement ouvrir le dossier, puis créer des packages et module...
+
 Chaque membre du binome doit faire une branche.
 
 Binome1 fait :
