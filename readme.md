@@ -4,6 +4,15 @@ Vous vous inscrivez sur GitHub
 
 Vous créez un nouveau projet `CSTwitterAnalysis`
 
+Si ce n'est pas deja fait vous créez une clef ssh dans votre dossier `~/.ssh` :
+
+	cd ~/.ssh
+	ssh-keygen -t rsa
+
+Pas besoin de rentrer de passphrase ni d'email...
+
+Ensuite vous copiez votre clef public (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web.
+
 En ligne de commande (sur votre console git sous windows ou votre terminal sur Linux/Mac) vous allez dans le dossier de votre projet local s'il existe.
 
 S'il n'existe pas ou que vous voulez refaire tout depuis le début créez un nouveau dossier et faites un `git init` (en ligne de commande) en étant dedans.
@@ -40,4 +49,5 @@ Votre binome doit faire un clone sur son pc :
 
 
 
-test 3
+test 3333333 44444
+test 3333333 44444
