@@ -63,10 +63,6 @@ Binome1 fait :
 	git pull # pour récupérer les dernières mise à jour de master
 	git merge branche1 # pour merger master et branche1
 	git push origin master
-	git checkout -b branche1
-
-
-
-
+	git checkout branche1 # retournez sur votre branche
 
 
