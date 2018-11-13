@@ -50,7 +50,7 @@ Attention, si votre push ne fonctionne pas vous devez ajouter l'option `f` :
 
 	git push -f origin master
 
-Vous invitez votre binome dans le projet sur le site web GitHub. Vous devez également inviter votre encadrant (pour moi ce sera hayj).
+Vous invitez votre binome dans le projet sur le site web GitHub. Vous devez également inviter votre encadrant (pour moi ce sera hayj, et Hajar c'est Hajarosy).
 
 Votre binome doit faire un clone sur son pc :
 
