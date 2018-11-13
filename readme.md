@@ -34,7 +34,7 @@ Si cela ne marche pas c'est que vous avez deja un remote donc vous devez le chan
 
 	git remote set-url origin git@github.com:hayj/CSTwitterAnalysis.git
 
-Si ce n'est pas deja fait vous faites le premier commit :
+Si ce n'est pas deja fait vous faites le premier commit (qui créé une mise à jour local) :
 	
 	git add . ; git commit -m "minor update"
 
@@ -42,12 +42,11 @@ Ensuite vous faites le premier push:
 
 	git push -u origin master
 
-Vous invitez votre binome dans le projet sur le site web GitHub.
+Vous invitez votre binome dans le projet sur le site web GitHub. Vous devez également inviter votre encadrant (pour moi ce sera hayj).
 
 Votre binome doit faire un clone sur son pc :
 
 	git clone git@github.com:hayj/CSTwitterAnalysis.git
-
 
 Chaque membre du binome doit faire une branche.
 
@@ -59,15 +58,15 @@ Binome2 fait :
 
 	git checkout -b branche2
 
-Régulierement vous devez merger sur la branche master.
+Régulierement vous devez faire des `commit`, et de temps en temps merger sur la branche master pour que les encadrants puisse voir le travail effectué.
 
-Binome1 fait :
+Par example binome1 fait :
 	
 	git checkout master # pour retourner sur la branche master
 	git pull # pour récupérer les dernières mise à jour de master
 	git merge branche1 # pour merger master et branche1
-	git push origin master
-	git checkout branche1 # retournez sur votre branche
+	git push origin master # pour tout envoyer sur github
+	git checkout branche1 # pour retourner sur votre branche
 
 # Enregistrez vous sur Twitter
 
