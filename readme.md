@@ -17,7 +17,7 @@ Le binome doit également créé une clef ssh de la même manière.
 
 Ensuite vous copiez votre clef public (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web (dans settings puis keys...).
 
-Ajoutez aussi la clef ssh du binome.
+Ajoutez aussi la clef ssh du binome sur son propre compte. Chaque binome a donc sa clef a ajoute sa clef sur son propre compte github.
 
 En ligne de commande (sur votre console git sous windows ou votre terminal sur Linux/Mac) vous allez dans le dossier de votre projet local s'il existe.
 
@@ -57,6 +57,8 @@ Votre binome doit faire un clone sur son pc :
 	git clone git@github.com:hayj/CSTwitterAnalysis.git
 
 Si vous n'avez pas encore le projet sur pycharm, vous pouvez simplement ouvrir le dossier, puis créer des packages et module...
+
+La création de branche est facultative, créer des branches permet de mieux travailler en binome, de faire des merges plus facilement. Mais sinon contentez-vous des commit push pull si vous avez du mal à faire vos branches...
 
 Chaque membre du binome doit faire une branche.
 
