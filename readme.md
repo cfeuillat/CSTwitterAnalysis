@@ -1,23 +1,23 @@
 # Configurez votre GitHub
 
-Attention, ceci n'est pas un repo que vous devez utiliser pour votre projet, juste un tutoriel pour vous aider à config vos projets.
+Attention, ceci n'est pas un dépôt que vous devez utiliser pour votre projet, juste un tutoriel pour vous aider à configurer vos projets.
 
-Vous vous inscrivez sur GitHub
+Vous vous inscrivez sur [GitHub](https://github.com/).
 
 Vous créez un nouveau projet `CSTwitterAnalysis`
 
-Si ce n'est pas deja fait vous créez une clef ssh dans votre dossier `~/.ssh` :
+Si ce n'est pas déjà fait, vous créez une clef ssh dans votre dossier `~/.ssh` :
 
-	cd ~/.ssh # facultatif sur windows
+	cd ~/.ssh # facultatif
 	ssh-keygen -t rsa
 
 Pas besoin de rentrer de passphrase ni d'email, ne rien écrire et appuyer sur entrée plusieurs fois...
 
-Le binome doit également créé une clef ssh de la même manière.
+Le binôme doit également créer une clef ssh de la même manière.
 
-Ensuite vous copiez votre clef public (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web (dans settings puis keys...).
+Ensuite vous copiez votre clef publique (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web (dans `settings` puis `keys`...).
 
-Ajoutez aussi la clef ssh du binome sur son propre compte. Chaque binome a donc sa clef et ajoute sa clef sur son propre compte github.
+Ajoutez aussi la clef ssh du binôme sur son propre compte. Chaque membre du binôme a donc sa clef et ajoute sa clef sur son propre compte github.
 
 En ligne de commande (sur votre console git sous windows ou votre terminal sur Linux/Mac) vous allez dans le dossier de votre projet local s'il existe.
 
@@ -34,33 +34,34 @@ Ensuite vous ajoutez le repo sur les serveurs github (remplacez "hayj" par votre
 
 	git remote add origin git@github.com:hayj/CSTwitterAnalysis.git
 
-Si cela ne marche pas c'est que vous avez deja un remote donc vous devez le changer avec :
+Si cela ne marche pas c'est que vous avez déjà un remote donc vous devez le changer avec :
 
 	git remote set-url origin git@github.com:hayj/CSTwitterAnalysis.git
 
-Si ce n'est pas deja fait vous faites le premier commit (qui créé une mise à jour local) :
+Si ce n'est pas déjà fait vous faites le premier commit (qui créé une mise à jour local) :
 	
-	git add . ; git commit -m "minor update"
+	git add .
+	git commit -m "first commit"
 
 Ensuite vous faites le premier push qui permet d'envoyer les mises à jour sur GitHub:
 
 	git push origin master
 
-Attention, si votre push ne fonctionne pas vous devez ajouter l'option `f` mais cela écrasera ce qu'il y a sur GitHub par ce que vous avez en local :
+Attention, si votre push ne fonctionne pas, vous devez ajouter l'option `f` mais cela écrasera ce qu'il y a sur GitHub par ce que vous avez en local :
 
 	git push -f origin master
 
-Vous invitez votre binome dans le projet sur le site web GitHub. Vous devez également inviter votre encadrant (pour moi ce sera hayj, et Hajar c'est Hajarosy).
+Vous invitez votre binôme dans le projet sur le site web GitHub. Vous devez également inviter votre encadrant (pour moi ce sera hayj, et Hajar c'est Hajarosy).
 
-Votre binome doit faire un clone sur son pc :
+Votre binôme doit faire un clone sur son pc :
 
 	git clone git@github.com:hayj/CSTwitterAnalysis.git
 
 Si vous n'avez pas encore le projet sur pycharm, vous pouvez simplement ouvrir le dossier, puis créer des packages et module...
 
-La création de branche est facultative, créer des branches permet de mieux travailler en binome, de faire des merges plus facilement. Mais sinon contentez-vous des commit push pull si vous avez du mal à faire vos branches...
+La création de branche est facultative, créer des branches permet de mieux travailler en binôme, de faire des merges plus facilement. Mais sinon contentez-vous des commit push pull si vous avez du mal à faire vos branches...
 
-Chaque membre du binome doit faire une branche.
+Chaque membre du binôme doit faire une branche.
 
 Binome1 fait :
 
@@ -70,7 +71,7 @@ Binome2 fait :
 
 	git checkout -b branche2
 
-Régulierement vous devez faire des `commit`, et de temps en temps merger sur la branche master pour que les encadrants puisse voir le travail effectué.
+Régulièrement, vous devez faire des `commit` et de temps en temps merger sur la branche master pour que les encadrants puissent voir le travail effectué.
 
 Par example binome1 fait :
 	
