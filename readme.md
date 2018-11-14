@@ -9,15 +9,15 @@ Vous créez un nouveau projet `CSTwitterAnalysis`
 Si ce n'est pas déjà fait, vous créez une clef ssh dans votre dossier `~/.ssh` :
 
 	cd ~/.ssh # facultatif
-	ssh-keygen -t rsa
+	ssh-keygen -t ed25519
 
-Pas besoin de rentrer de passphrase ni d'email, ne rien écrire et appuyer sur entrée plusieurs fois...
+Pas besoin de rentrer d'e-mail, il est fortement conseillé d'indiquer une passphrase (mot de passe permettant de protéger votre clef). Pour le reste, ne rien écrire et appuyer sur `entrée` plusieurs fois...
 
 Le binôme doit également créer une clef ssh de la même manière.
 
-Ensuite vous copiez votre clef publique (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web (dans `settings` puis `keys`...).
+Ensuite vous copiez votre clef publique (qui peut être affichée avec `cat ~/.ssh/id_ed25519.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web (dans `settings` puis `keys`...).
 
-Ajoutez aussi la clef ssh du binôme sur son propre compte. Chaque membre du binôme a donc sa clef et ajoute sa clef sur son propre compte github.
+Votre binôme ajoute de la même manière sa clé sur son propre compte. Chaque membre du binôme a donc sa clef et ajoute sa clef sur son propre compte github.
 
 En ligne de commande (sur votre console git sous windows ou votre terminal sur Linux/Mac) vous allez dans le dossier de votre projet local s'il existe.
 
