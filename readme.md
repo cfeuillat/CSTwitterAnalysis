@@ -42,11 +42,11 @@ Si ce n'est pas deja fait vous faites le premier commit (qui créé une mise à 
 	
 	git add . ; git commit -m "minor update"
 
-Ensuite vous faites le premier push:
+Ensuite vous faites le premier push qui permet d'envoyer les mises à jour sur GitHub:
 
 	git push origin master
 
-Attention, si votre push ne fonctionne pas vous devez ajouter l'option `f` :
+Attention, si votre push ne fonctionne pas vous devez ajouter l'option `f` mais cela écrasera ce qu'il y a sur GitHub par ce que vous avez en local :
 
 	git push -f origin master
 
