@@ -4,7 +4,14 @@ Attention, ceci n'est pas un dépôt que vous devez utiliser pour votre projet, 
 
 Vous vous inscrivez sur [GitHub](https://github.com/).
 
-Vous créez un nouveau projet `CSTwitterAnalysis`
+Vous créez un nouveau projet `CSTwitterAnalysis`.
+
+Configurez ensuite git sur votre machine. Pour cela, ouvrez une ligne de commande (votre console git sous windows ou votre terminal sur Linux/Mac) et exécutez :
+
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+
+Il faut utiliser l'adresse email avec laquelle vous vous êtes inscrits sur github.
 
 Si ce n'est pas déjà fait, vous créez une clef ssh dans votre dossier `~/.ssh` :
 
@@ -27,10 +34,8 @@ Exemple :
 
 	cd C:/mon/projet
 	git init
-	git config --global user.email "you@example.com"
-	git config --global user.name "Your Name"
 
-Ensuite vous ajoutez le repo sur les serveurs github (remplacez "hayj" par votre username) :
+Ensuite vous ajoutez le dépôt sur les serveurs github (remplacez "hayj" par votre username) :
 
 	git remote add origin git@github.com:hayj/CSTwitterAnalysis.git
 
