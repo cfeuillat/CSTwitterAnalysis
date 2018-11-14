@@ -17,7 +17,7 @@ Le binome doit également créé une clef ssh de la même manière.
 
 Ensuite vous copiez votre clef public (qui peut être affichée avec `cat ~/.ssh/id_rsa.pub`) et vous l'ajoutez comme clef sur votre compte github en utilisant le site web (dans settings puis keys...).
 
-Ajoutez aussi la clef ssh du binome sur son propre compte. Chaque binome a donc sa clef a ajoute sa clef sur son propre compte github.
+Ajoutez aussi la clef ssh du binome sur son propre compte. Chaque binome a donc sa clef et ajoute sa clef sur son propre compte github.
 
 En ligne de commande (sur votre console git sous windows ou votre terminal sur Linux/Mac) vous allez dans le dossier de votre projet local s'il existe.
 
