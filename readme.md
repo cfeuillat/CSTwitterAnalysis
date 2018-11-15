@@ -15,10 +15,9 @@ Il faut utiliser l'adresse email avec laquelle vous vous êtes inscrits sur gith
 
 Si ce n'est pas déjà fait, vous créez une clef ssh dans votre dossier `~/.ssh` :
 
-	cd ~/.ssh # facultatif
 	ssh-keygen -t ed25519
 
-Pas besoin de rentrer d'e-mail, il est fortement conseillé d'indiquer une passphrase (mot de passe permettant de protéger votre clef). Pour le reste, ne rien écrire et appuyer sur `entrée` plusieurs fois...
+Pas besoin de rentrer d'e-mail, il est conseillé d'indiquer une passphrase (mot de passe permettant de protéger votre clef privée). Pour le reste, ne rien écrire et appuyer sur `entrée` plusieurs fois.
 
 Le binôme doit également créer une clef ssh de la même manière.
 
